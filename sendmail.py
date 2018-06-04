@@ -39,7 +39,7 @@ def adiciona_anexo(msg, filename):
         msg.attach(mime)
 
 
-de = 'seuemail@gmai.com'
+de = 'seuemail@gmail.com'
 para = ['fulano@fulano.com.br']
 
 msg = MIMEMultipart()
