@@ -58,6 +58,7 @@ adiciona_anexo(msg, 'log-backup.txt')
 raw = msg.as_string()
 
 smtp = smtplib.SMTP('smtp.gmail.com', 587)
+starttls()
 smtp.login('youremail@gmail.com', 'yourpassword')
 smtp.sendmail(de, para, raw)
 smtp.quit()
